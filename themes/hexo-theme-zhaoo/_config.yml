@@ -30,11 +30,11 @@ color:
 
 # Favicon
 favicon:
-  small: /images/icons/favicon-16x16.png
-  medium: /images/icons/favicon-32x32.png
-  apple_touch_icon: /images/icons/apple-touch-icon.png
-  safari_pinned_tab: /images/icons/stun-logo.svg
-  msapplication: /images/icons/favicon-144x144.png
+  small: /CKBABA/images/icons/favicon-16x16.png
+  medium: /CKBABA/images/icons/favicon-32x32.png
+  apple_touch_icon: /CKBABA/images/icons/apple-touch-icon.png
+  safari_pinned_tab: /CKBABA/images/icons/stun-logo.svg
+  msapplication: /CKBABA/images/icons/favicon-144x144.png
 
 # Font
 font:
@@ -46,7 +46,7 @@ background_image:
 
 # Loading
 loading:
-  gif: /images/theme/loading.gif
+  gif: /CKBABA/images/theme/loading.gif
   lottie:
 
 # Preview
@@ -56,8 +56,8 @@ preview:
   background:
     type: image # image video
     default_image:
-      light: /images/theme/welcome-image.jpg
-      dark: /images/theme/welcome-image.jpg
+      light: /CKBABA/images/theme/welcome-image.jpg
+      dark: /CKBABA/images/theme/welcome-image.jpg
     video:
     api: # https://source.unsplash.com/random/1920x1080
     size: cover # css: background-size
@@ -66,8 +66,8 @@ preview:
     default: 我在开了灯的床头下，想问问自己的心啊。
     color: '#ffffff'
     typing: true
-    api: https://v2.jinrishici.com/one.json
-    data_contents: ['data', 'content']
+    # api: https://v2.jinrishici.com/one.json
+    # data_contents: ['data', 'content']
     # ex.one  =>  apl: https://v1.hitokoto.cn/?encode=text&c=i  data_contents:
     # ex.two  =>  api: https://v2.jinrishici.com/one.json  data_contents: ['data', 'content']
 
@@ -81,11 +81,11 @@ copyright: <p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  
 
 # Social
 social:
-  qq: tencent://message/?Menu=yes&uin=894519210 || iconQQ || '#12B7F5'
-  wechat: javascript:; || iconwechat-fill || '#09BB07'
-  instagram: https://www.instagram.com/izhaoo/ || iconinstagram || '#DA2E76'
-  github: https://github.com/zhaoo || icongithub-fill || '#9f7be1'
-  email: mailto:izhaoo@163.com || iconmail
+  # qq: tencent://message/?Menu=yes&uin=894519210 || iconQQ || '#12B7F5'
+  # wechat: javascript:; || iconwechat-fill || '#09BB07'
+  # instagram: https://www.instagram.com/izhaoo/ || iconinstagram || '#DA2E76'
+  github: https://github.com/CKBABA || icongithub-fill || '#9f7be1'
+  email: shiqipam@foxmail.com || iconmail
 
 # Override Scrollbar
 scrollbar:
@@ -102,9 +102,9 @@ search:
 
 # QR Code
 qrcode:
-  enable: true
-  type: url # url | image
-  image: https://pic.izhaoo.com/weapp-code.jpg
+  enable: false
+#   type: url # url | image
+#   image: https://pic.izhaoo.com/weapp-code.jpg
 
 # Color Mode
 color_mode:
@@ -239,7 +239,7 @@ lazyload:
   enable: true
   only_post: false
   loading:
-    gif: /images/theme/loading.gif
+    gif: /CKBABA/images/theme/loading.gif
     lottie:
 
 # FancyBox
